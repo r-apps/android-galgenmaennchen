@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentBottom="true">
+        <LinearLayout
+                android:id="@+id/spellerFirst"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:text="Q" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button11" android:layout_weight="1"/>
+            <Button
+                    android:text="W" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button10" android:layout_weight="1"/>
+            <Button
+                    android:text="E" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button9" android:layout_weight="1"/>
+            <Button
+                    android:text="R" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button8" android:layout_weight="1"/>
+            <Button
+                    android:text="T" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button7" android:layout_weight="1"/>
+            <Button
+                    android:text="Z" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button6" android:layout_weight="1"/>
+            <Button
+                    android:text="U" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button5" android:layout_weight="1"/>
+            <Button
+                    android:text="I" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button4" android:layout_weight="1"/>
+            <Button
+                    android:text="O" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button3" android:layout_weight="1"/>
+            <Button
+                    android:text="P" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button2" android:layout_weight="1"/>
+            <Button
+                    android:text="Ü" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/spellerSecond"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:text="A" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button22" android:layout_weight="1"/>
+            <Button
+                    android:text="S" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button21" android:layout_weight="1"/>
+            <Button
+                    android:text="D" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button20" android:layout_weight="1"/>
+            <Button
+                    android:text="F" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button19" android:layout_weight="1"/>
+            <Button
+                    android:text="G" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button18" android:layout_weight="1"/>
+            <Button
+                    android:text="H" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button17" android:layout_weight="1"/>
+            <Button
+                    android:text="J" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button16" android:layout_weight="1"/>
+            <Button
+                    android:text="K" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button15" android:layout_weight="1"/>
+            <Button
+                    android:text="L" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button14" android:layout_weight="1"/>
+            <Button
+                    android:text="Ö" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button13" android:layout_weight="1"/>
+            <Button
+                    android:text="Ä" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button12" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/spellerThird"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:text="Y" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button30" android:layout_weight="1"/>
+            <Button
+                    android:text="X" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button29" android:layout_weight="1"/>
+            <Button
+                    android:text="C" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button28" android:layout_weight="1"/>
+            <Button
+                    android:text="V" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button27" android:layout_weight="1"/>
+            <Button
+                    android:text="B" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button26" android:layout_weight="1"/>
+            <Button
+                    android:text="N" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button25" android:layout_weight="1"/>
+            <Button
+                    android:text="M" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button24" android:layout_weight="1"/>
+            <Button
+                    android:text="ẞ" android:onClick="buttonClick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button23" android:layout_weight="1"/>
+        </LinearLayout>
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Debug: Create new Round" android:onClick="debugButtonClick"/>
+    </LinearLayout>
